@@ -57,14 +57,14 @@
     color:grey;
 }
 
-ul li{
+.list > li{
     margin-bottom:10px;
 }
 
 .type{
     font-size: 10px;
     color:white;
-    padding:5px;
+    padding:3px 8px;
     border-radius: 10px;
 }
 
