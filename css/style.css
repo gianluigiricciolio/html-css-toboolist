@@ -3,26 +3,95 @@
     padding:0;
     box-sizing: border-box;
 }
+/* SEZIONE CONTENITORI */
 
 .content{
     background-color: whitesmoke;
-    padding:30px 0;
-
-}
-
-.logo{
-    padding:10px 20px;
-    vertical-align: middle;
-}
-.logo-text{
-    
+    padding:35px;
 }
 
 .tie{
-    background-color: white;
     max-width: 800px;
     margin:0px auto;
-    padding:10px 40px;
+    padding:20px 40px;
+}
+
+.sec{
+    background-color: white;
+    padding:20px 40px;
     border-radius:8px;
 }
 
+.due{
+    margin-top:5px;
+}
+
+/* SEZIONE LOGO */
+.logo img, .logo span{
+    vertical-align: middle;
+}
+.logo{
+    padding:10px 20px;
+}
+
+.logo-text{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+/* SEZIONE PULSANTI */
+.button{
+    padding:7px;
+    border-radius: 5px;
+}
+
+.task{
+    background-color: skyblue;
+    color:white;
+}
+
+.section{
+    background-color: white;
+    border:1px solid grey;
+    color:grey;
+}
+
+ul li{
+    margin-bottom:10px;
+}
+
+.type{
+    font-size: 10px;
+    color:white;
+    padding:5px;
+    border-radius: 10px;
+}
+
+.editorial{
+    background-color: skyblue;
+}
+
+.q1-goals{
+    background-color: pink;
+}
+
+.recruiting{
+    background-color: green;
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.website{
+    background-color: violet;
+}
+
+.sales{
+    background-color: greenyellow;
+}
+
+li li{
+    margin-left:10px;
+}
